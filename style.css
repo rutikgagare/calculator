@@ -34,7 +34,6 @@ body{
 }
 
 .calci input{
-    width: 80%;
     padding: 1rem;
     outline: none;
     border: 2px solid blue;
@@ -63,5 +62,8 @@ body{
     .calci .row .btn1{
         width: 2.8rem;
         font-size:0.8rem;
+    }
+    body{
+        background-color: red;
     }
   }
