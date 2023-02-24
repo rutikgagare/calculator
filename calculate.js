@@ -7,7 +7,8 @@ but.forEach(element => {
         if(element.innerHTML === "="){
             if(string.length > 0){
                 console.log(eval(string));
-                inp.value = eval(string);
+                string = eval(string);
+                inp.value = string;
             }
             else{
                 inp.value = "Enter valid input";
