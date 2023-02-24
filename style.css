@@ -37,6 +37,7 @@ body{
 }
 
 .calci input{
+    width: 90%;
     padding: 1rem;
     outline: none;
     border: 2px solid blue;
