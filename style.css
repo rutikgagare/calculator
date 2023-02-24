@@ -11,6 +11,7 @@ body{
 
 .container{
     height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,6 +19,7 @@ body{
 }
 
 .calci{
+    width: 30%;
     background-color: white;
     border-radius: 1rem;
     display: flex;
@@ -35,7 +37,6 @@ body{
 }
 
 .calci input{
-    width: 80%;
     padding: 1rem;
     outline: none;
     border: 2px solid blue;
@@ -60,9 +61,15 @@ body{
     transform: scale(1.1);
 }
 
+@media only screen and (max-width: 800px) {
+    .calci{
+        width: 50%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
-    .calci .row{
-        width: 16rem;
+    .calci{
+        width: 70%;
     }
     .calci .row .btn1{
         width: 3rem;
