@@ -17,6 +17,10 @@ but.forEach(element => {
             inp.value = "";
             string = "";
         }
+        else if(element.innerHTML === "C"){
+            string = string.substring(0,string.length-1);
+            inp.value = string;
+        }
         else{
             string+=element.innerHTML;
             inp.value = string;
