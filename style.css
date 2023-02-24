@@ -60,3 +60,10 @@ body{
 .btn1:hover{
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 600px) {
+    .calci .row .btn1{
+        width: 3rem;
+        font-size:0.8rem;
+    }
+  }
