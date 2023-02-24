@@ -14,6 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 
 .calci{
@@ -34,6 +35,7 @@ body{
 }
 
 .calci input{
+    width: 80%;
     padding: 1rem;
     outline: none;
     border: 2px solid blue;
@@ -59,11 +61,11 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-    .calci .row .btn1{
-        width: 2.8rem;
-        font-size:0.8rem;
+    .calci .row{
+        width: 16rem;
     }
-    body{
-        background-color: red;
+    .calci .row .btn1{
+        width: 3rem;
+        font-size:0.8rem;
     }
   }
