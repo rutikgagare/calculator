@@ -62,6 +62,9 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
+    .calci .row{
+        width: 16rem;
+    }
     .calci .row .btn1{
         width: 3rem;
         font-size:0.8rem;
