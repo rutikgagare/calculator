@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(102, 99, 99);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calci{
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.calci .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    width: 20rem;
+    flex: 1;
+}
+
+.calci input{
+    width: 80%;
+    padding: 1rem;
+    outline: none;
+    border: 2px solid blue;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.calci .row .btn1{
+    width: 3.8rem;
+    padding: 1rem;
+    background-color: rgb(59, 56, 56);
+    color:white;
+    outline: none;
+    border:none;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+}
