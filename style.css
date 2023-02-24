@@ -14,7 +14,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
 }
 
 .calci{
@@ -31,7 +30,6 @@ body{
     justify-content: center;
     align-items: center;
     margin: 1rem 0;
-    width: 20rem;
     flex: 1;
 }
 
@@ -62,15 +60,8 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-    .calci .row{
-        width: 16rem;
-    }
     .calci .row .btn1{
-        width: 3rem;
+        width: 2.8rem;
         font-size:0.8rem;
-    }
-
-    body{
-        background-color: red;
     }
   }
