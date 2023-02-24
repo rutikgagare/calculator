@@ -69,7 +69,7 @@ body{
 
 @media only screen and (max-width: 600px) {
     .calci{
-        width: 70%;
+        width: 85%;
     }
     .calci .row .btn1{
         width: 3rem;
